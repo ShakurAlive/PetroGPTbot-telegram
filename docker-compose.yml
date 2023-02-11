@@ -1,0 +1,5 @@
+services:
+  petrogptbot:
+    container_name: petrogptbot-telegram
+    restart: unless-stopped
+    build: .
